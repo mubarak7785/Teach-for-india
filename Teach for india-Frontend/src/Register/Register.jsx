@@ -37,7 +37,7 @@ export const Register=()=>{
             <div className="main-admin-div">
         <div className="title-div">
           <p>Full Name</p>
-          <input type="text" id="full_name" onChange={handleChange} />
+          <input type="text" id="full_name" placeholder="Full Name" onChange={handleChange} />
         </div>
         <div className="mid-div">
           <div>
@@ -86,7 +86,7 @@ export const Register=()=>{
         <div className="mid-div">
           <div>
             <p>Language Known</p>
-            <input type="text" placeholder="language" id="spoken_languages" onChange={handleChange} />
+            <input type="text" placeholder="Language" id="spoken_languages" onChange={handleChange} />
           </div>
           <div>
             <p>Availability</p>

@@ -7,7 +7,15 @@
 
 .head>div{
     width: 17%;
-    border: 1px solid blueviolet;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
+    
+}
+
+#headd>div>p{
+    
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
 }

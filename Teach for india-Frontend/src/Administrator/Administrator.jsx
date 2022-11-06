@@ -10,30 +10,59 @@ export const Administrator = () => {
 
   return (
     <div>
-      tttt
       <Navbar />
       <div className="adminis-div">
-        <div className="head">
-            <div><p>Name</p></div>
-            <div> <p>Age</p></div>
-            <div><p>Phone-No</p></div>
-            <div> <p>Location</p></div>
-            <div> <p>Language</p></div>
-            <div><p>Day</p></div> 
+        <br />
+        <br />
+        <br />
+        <div className="head" id="headd">
+          <div>
+            <p>Name</p>
+          </div>
+          <div>
+            {" "}
+            <p>Age</p>
+          </div>
+          <div>
+            <p>Phone-No</p>
+          </div>
+          <div>
+            {" "}
+            <p>Location</p>
+          </div>
+          <div>
+            {" "}
+            <p>Language</p>
+          </div>
+          <div>
+            <p>Day</p>
+          </div>
         </div>
+
         {data.map((e) => {
           return (
             <div className="head">
-                <div> <p>{e.full_name}</p></div>
-                <div> <p>{e.age}</p></div>
-                <div> <p>{e.phone}</p></div>
-                <div><p> {e.location}</p></div>
-                <div><p>{e.spoken_languages}</p></div>
-                <div><p>{e.availability}</p></div>
-             
-           
-              
-              
+              <div>
+                {" "}
+                <p>{e.full_name}</p>
+              </div>
+              <div>
+                {" "}
+                <p>{e.age}</p>
+              </div>
+              <div>
+                {" "}
+                <p>{e.phone}</p>
+              </div>
+              <div>
+                <p> {e.location}</p>
+              </div>
+              <div>
+                <p>{e.spoken_languages}</p>
+              </div>
+              <div>
+                <p>{e.availability}</p>
+              </div>
             </div>
           );
         })}
